@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/en/*"
+to = "/en/coming-soon.html"
+status = 404

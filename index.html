@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html lang="en-us">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta charset="utf-8">
+	<title>Cybersecurity Solutions | VAPT, Security Auditing, Network Security | CyHEX Infotech Private Limited</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/site.webmanifest">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#430dd7">
+  <link rel="shortcut icon" href="favicons/favicon.ico">
+  
+  <meta name="msapplication-TileColor" content="#603cba">
+  <meta name="msapplication-config" content="favicons/browserconfig.xml">
 
-  <title>Cybersecurity Solutions | VAPT, Security Auditing, Network Security | CyHEX Infotech Private Limited</title>
   <meta name="description" content="CyHEX Infotech Private Limited provides comprehensive cybersecurity solutions in Mumbai including VAPT, Security auditing, Bug Bounty programs, and Application & Web development. Contact us today to secure your digital assets.">
   <meta name="keywords" content="Cyhex, Infotech, Private, Limited, Cyhex Infotech, Pvt, Ltd, cybersecurity solutions, VAPT, pentesting, security auditing, Mumbai, Thane, Navi Mumbai">
   <meta name="robots" content="index, follow">
@@ -15,429 +26,687 @@
   <meta property="og:title" content="Cybersecurity Solutions | VAPT, Security Auditing, Network Security | CyHEX Infotech Private Limited">
   <meta property="og:description" content="CyHEX Infotech Private Limited provides comprehensive cybersecurity solutions in Mumbai including VAPT, Security auditing, Bug Bounty programs, and Application & Web development. Contact us today to secure your digital assets.">
   <meta property="og:image" content="https://cyhex.co/assets/img/meta_img.png">
+  
 
-  <!-- Favicons -->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
+	<!-- # Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	<!-- # CSS Plugins -->
+	<link rel="stylesheet" href="plugins/slick/slick.css">
+	<link rel="stylesheet" href="plugins/font-awesome/fontawesome.min.css">
+	<link rel="stylesheet" href="plugins/font-awesome/brands.css">
+	<link rel="stylesheet" href="plugins/font-awesome/solid.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+	<!-- # Main Style Sheet -->
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
-
-      <!-- <h1 class="logo me-auto"><a href="index.html"></a></h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link   scrollto" href="#products">Products</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a class="getstarted scrollto" href="#contact">Contact Us</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
+<!-- navigation -->
+<header class="navigation bg-tertiary">
+  <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>Protecting Your Network, Building Your Business.</h1>
-          <h2>Empowering your digital future with innovative software solutions and impenetrable cybersecurity.</h2>
-          <div class="d-flex justify-content-center justify-content-lg-start">
+      <a class="navbar-brand" href="index.html">
+        <svg class="img-fluid" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg641266" viewBox="0 85 1024 568" height=100px" width="200px" version="1.1">
+          <metadata id="metadata641272">
+            <rdf:rdf>
+              <cc:work rdf:about="">
+                <dc:format>image/svg+xml</dc:format>
+                <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+              </cc:work>
+            </rdf:rdf>
+          </metadata>
+          <defs id="defs641270"></defs>
+          <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-97114b72-2d76-422a-9276-677e1c994077">
+            <stop id="stop641247" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+            <stop id="stop641249" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+          </linearGradient>
+          <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-97114b72-2d76-422a-9276-677e1c994077">
+            <stop id="stop641252" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+            <stop id="stop641254" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+            <stop id="stop641256" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+          </linearGradient>
+          <g id="logo-group">
+            <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+            <g id="logo-center" transform="translate(0 0)">
+              <image xlink:href="" id="icon_container" style="display: none;" x="0" y="0"></image>
+              <g id="slogan" style="font-style:normal;font-weight:400;font-size:32px;line-height:1;font-family:'Hammersmith One';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+              <g id="title" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)">
+                <path id="path641275" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 397.13075,-2.304 c 4.176,2.232 8.928,3.312 14.256,3.312 4.608,0 8.712,-0.792 12.456,-2.448 3.672,-1.584 6.768,-3.96 9.216,-7.056 l -9.072,-8.208 c -3.312,3.96 -7.272,5.904 -11.88,5.904 -2.736,0 -5.184,-0.576 -7.344,-1.8 -2.16,-1.152 -3.816,-2.88 -4.968,-5.04 -1.152,-2.16 -1.728,-4.68 -1.728,-7.56 0,-2.808 0.576,-5.328 1.728,-7.488 1.152,-2.16 2.808,-3.888 4.968,-5.112 2.16,-1.152 4.608,-1.8 7.344,-1.8 4.608,0 8.568,2.016 11.88,5.904 l 9.072,-8.208 c -2.448,-3.024 -5.544,-5.4 -9.216,-7.056 -3.744,-1.584 -7.848,-2.448 -12.456,-2.448 -5.328,0 -10.08,1.152 -14.256,3.384 -4.176,2.232 -7.488,5.328 -9.864,9.288 -2.448,4.032 -3.6,8.496 -3.6,13.536 0,5.04 1.152,9.576 3.6,13.536 2.376,4.032 5.688,7.128 9.864,9.36 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(81.43270844999995 -59.499039999999994) scale(3.13) translate(-383.66675 51.408)"></path>
+                <path id="path641277" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 466.13375,-18.072 19.296,-32.328 h -13.824 l -11.952,20.016 -11.952,-20.016 h -15.048 l 19.224,32.112 V 0 h 14.256 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(246.96901845000002 -56.34399999999998) scale(3.13) translate(-432.65375 50.4)"></path>
+                <path id="path641279" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 536.72637,-50.4 h -14.256 v 18.936 h -19.44 V -50.4 H 488.77438 V 0 h 14.25599 v -19.656 h 19.44 V 0 h 14.256 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(434.83359035000007 -56.34399999999998) scale(3.13) translate(-488.77438 50.4)"></path>
+                <path id="path641281" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 586.8125,-50.4 h -39.96 v 11.016 h 39.96 z m 0,19.512 h -39.96 v 10.656 h 39.96 z m -39.96,19.872 V 0 h 39.96 v -11.016 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(628.82510595 -56.34399999999998) scale(3.13) translate(-546.8525 50.4)"></path>
+                <path id="path641283" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 610.21362,-45.072 -3.6,-5.328 h -16.05599 l 11.15999,15.84 z m 21.096,28.584 -8.352,10.8 3.81601,5.688 h 16.41599 z M 642.03763,-50.4 h -15.408 L 589.76562,0 h 16.27201 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(775.35017155 -56.34399999999998) scale(3.13) translate(-589.76562 50.4)"></path>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item "> <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item dropdown"> 
+            <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item " href="services/vapt.html">Pentesting</a>
+              </li>
+              <li><a class="dropdown-item " href="services/security-auditing.html">Auditing</a>
+              </li>
+              <li><a class="dropdown-item " href="services/network-setup.html">Network Setup</a>
+              </li>
+              <li><a class="dropdown-item " href="services/advisory.html">Advisory</a>
+              </li>
+              <li><a class="dropdown-item " href="services/webapp.html">Development</a>
+              </li>
+              <li><a class="dropdown-item " href="services/automation-and-scripting.html">Automation</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item "> <a class="nav-link" href="coming-soon.html">Portfolio</a>
+          </li>
+          <li class="nav-item dropdown"> 
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Resources</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item " href="coming-soon.html">Blog</a>
+              </li>
+              <li><a class="dropdown-item " href="faq.html">FAQ&#39;s</a>
+              </li>
+              <li><a class="dropdown-item " href="legal.html">Legal</a>
+              </li>
+              <li><a class="dropdown-item " href="terms.html">Terms &amp; Condition</a>
+              </li>
+              <li><a class="dropdown-item " href="privacy-policy.html">Privacy &amp; Policy</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <!-- contact btn --> <a href="#contactUs" class="btn btn-primary ms-2 ms-lg-3">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+</header>
+<!-- /navigation -->
+
+<div class="modal emailUsModal fade" id="emailUs" tabindex="-1" aria-labelledby="emailUsLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-bottom-0">
+        <h4 class="modal-title" id="exampleModalLabel">Email Us</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form action="https://formspree.io/f/mjvdawba" method="POST" role="form">
+          <div class="row">
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input name="name" type="text" class="form-control shadow-none" id="form_name" required>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="emailid" class="form-label">Your Email</label>
+                <input name="email" type="email" class="form-control shadow-none" id="form_email" required>
+              </div>
+            </div>
+            <div class="col-lg-12 mb-4 pb-2">
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input name="subject" type="text" class="form-control shadow-none" id="form_subject" required>
+              </div>
+            </div>
+            <div class="col-lg-12 mb-4 pb-2">
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea name="message" type="text" class="form-control shadow-none" style="padding-top: 20px" id="form_message" rows="10" required></textarea>
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+            </div>
           </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="banner bg-tertiary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-7 mb-5 mb-lg-0">
+        <div class="block text-center text-lg-start pe-0 pe-xl-5">
+          <h1 class="text-capitalize mb-4">Protecting Your Network, Building Your Business.</h1>
+          <p class="mb-4">Empowering your digital future with innovative software solutions and impenetrable cybersecurity.</p> 
         </div>
-        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
-          <img src="assets/img/hero-img.png" width="475" class="img-fluid animated" alt="">
+      </div>
+      <div class="col-lg-5 mb-5">
+        <div class="ps-lg-4 text-center">
+          <img loading="lazy" decoding="async"
+            src="images/ill_1.png"
+            alt="banner image" class="w-200">
         </div>
       </div>
     </div>
+  </div>
+  <div class="has-shapes">
+    <svg class="shape shape-left text-light" viewBox="0 0 192 752" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M-30.883 0C-41.3436 36.4248 -22.7145 75.8085 4.29154 102.398C31.2976 128.987 65.8677 146.199 97.6457 166.87C129.424 187.542 160.139 213.902 172.162 249.847C193.542 313.799 149.886 378.897 129.069 443.036C97.5623 540.079 122.109 653.229 191 728.495"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M-55.5959 7.52271C-66.0565 43.9475 -47.4274 83.3312 -20.4214 109.92C6.58466 136.51 41.1549 153.722 72.9328 174.393C104.711 195.064 135.426 221.425 147.449 257.37C168.829 321.322 125.174 386.42 104.356 450.559C72.8494 547.601 97.3965 660.752 166.287 736.018"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M-80.3302 15.0449C-90.7909 51.4697 -72.1617 90.8535 -45.1557 117.443C-18.1497 144.032 16.4205 161.244 48.1984 181.915C79.9763 202.587 110.691 228.947 122.715 264.892C144.095 328.844 100.439 393.942 79.622 458.081C48.115 555.123 72.6622 668.274 141.552 743.54"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M-105.045 22.5676C-115.506 58.9924 -96.8766 98.3762 -69.8706 124.965C-42.8646 151.555 -8.29436 168.767 23.4835 189.438C55.2615 210.109 85.9766 236.469 98.0001 272.415C119.38 336.367 75.7243 401.464 54.9072 465.604C23.4002 562.646 47.9473 675.796 116.838 751.063"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+    <svg class="shape shape-right text-light" viewBox="0 0 731 746" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M12.1794 745.14C1.80036 707.275 -5.75764 666.015 8.73984 629.537C27.748 581.745 80.4729 554.968 131.538 548.843C182.604 542.703 234.032 552.841 285.323 556.748C336.615 560.64 391.543 557.276 433.828 527.964C492.452 487.323 511.701 408.123 564.607 360.255C608.718 320.353 675.307 307.183 731.29 327.323"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M51.0253 745.14C41.2045 709.326 34.0538 670.284 47.7668 635.783C65.7491 590.571 115.623 565.242 163.928 559.449C212.248 553.641 260.884 563.235 309.4 566.931C357.916 570.627 409.887 567.429 449.879 539.701C505.35 501.247 523.543 426.331 573.598 381.059C615.326 343.314 678.324 330.853 731.275 349.906"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M89.8715 745.14C80.6239 711.363 73.8654 674.568 86.8091 642.028C103.766 599.396 150.788 575.515 196.347 570.054C241.906 564.578 287.767 573.629 333.523 577.099C379.278 580.584 428.277 577.567 465.976 551.423C518.279 515.172 535.431 444.525 582.62 401.832C621.964 366.229 681.356 354.493 731.291 372.46"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M128.718 745.14C120.029 713.414 113.678 678.838 125.837 648.274C141.768 608.221 185.939 585.788 228.737 580.659C271.536 575.515 314.621 584.008 357.6 587.282C400.58 590.556 446.607 587.719 482.028 563.16C531.163 529.111 547.275 462.733 591.612 422.635C628.572 389.19 684.375 378.162 731.276 395.043"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M167.564 745.14C159.432 715.451 153.504 683.107 164.863 654.519C179.753 617.046 221.088 596.062 261.126 591.265C301.164 586.452 341.473 594.402 381.677 597.465C421.88 600.527 464.95 597.872 498.094 574.896C544.061 543.035 559.146 480.942 600.617 443.423C635.194 412.135 687.406 401.817 731.276 417.612"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M817.266 289.466C813.108 259.989 787.151 237.697 759.261 227.271C731.372 216.846 701.077 215.553 671.666 210.904C642.254 206.24 611.795 197.156 591.664 175.224C555.853 136.189 566.345 75.5336 560.763 22.8649C552.302 -56.8256 498.487 -130.133 425 -162.081"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M832.584 276.159C828.427 246.683 802.469 224.391 774.58 213.965C746.69 203.539 716.395 202.246 686.984 197.598C657.573 192.934 627.114 183.85 606.982 161.918C571.172 122.883 581.663 62.2275 576.082 9.55873C567.62 -70.1318 513.806 -143.439 440.318 -175.387"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M847.904 262.853C843.747 233.376 817.789 211.084 789.9 200.659C762.011 190.233 731.716 188.94 702.304 184.292C672.893 179.627 642.434 170.544 622.303 148.612C586.492 109.577 596.983 48.9211 591.402 -3.74766C582.94 -83.4382 529.126 -156.746 455.638 -188.694"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M863.24 249.547C859.083 220.07 833.125 197.778 805.236 187.353C777.347 176.927 747.051 175.634 717.64 170.986C688.229 166.321 657.77 157.237 637.639 135.306C601.828 96.2707 612.319 35.6149 606.738 -17.0538C598.276 -96.7443 544.462 -170.052 470.974 -202"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+  </div>
+</section>
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-    <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>About Us</h2>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="section-title pt-4">
+          <p class="text-primary text-uppercase fw-bold mb-3">Our Services</p>
+          <h1>Our online and offline services</h1>
+          <p>Our comprehensive services are designed to help you achieve your business objectives and stay ahead of the competition.</p>
         </div>
-
-        <div class="row content">
-          <div class="col-lg-12">
-            <p>
-              We are a team of techies who are passionate about infotech and helping our clients succeed. Our startup is all about providing development, products, and services that make a difference. We believe that every project is unique, and we work closely with our clients to understand their needs and deliver customized solutions. Our goal is to make technology accessible and easy for everyone.
-            </p>
-            <p>
-              We are constantly learning and staying up-to-date with the latest trends and technologies to provide our clients with the best possible solutions. At the heart of our business is a commitment to integrity, professionalism, and excellence. 
-            </p>
-            <p>
-              We believe in building strong relationships with our clients based on trust and respect. We are excited to partner with you on your next project and help you achieve your goals.
-            </p>
-          </div>
-        </div>
-
       </div>
-    </section><!-- End About Us Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Our comprehensive services are designed to help you achieve your business objectives and stay aheaad of the competition.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file-find"></i></div>
-              <h4><a href="#contact">Vulnerability Assessment and Penetration Testing</a></h4>
-              <p>Identifcation and mitigation of security vulnerabilities in your networks and systems.</p>
-            </div>
+      <div class="col-lg-4 col-md-6 service-item">
+        <a class="text-black" href="services/vapt.html">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">01</span>
+            <h3 class="mb-3 service-title">Vulnerability Assessment and Penetration Testing</h3>
+            <p class="mb-0 service-description">Identifcation and mitigation of security vulnerabilities in your networks and systems.</p>
           </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-message-rounded"></i></div>
-              <h4><a href="#contact">Advisory</a></h4>
-              <p>Expert advice and guidance on managing and mitigating cyber risks to protect your business.</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="#contact">Security Auditing</a></h4>
-              <p>Comprehensive evaluation of your organization's security posture and actionable recommendations.</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-cog"></i></div>
-              <h4><a href="#contact">Network Setup and Configuration</a></h4>
-              <p>Setting up your network optimally and configuring it to meet your specific requirements.</p>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="row">
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-bug"></i></div>
-              <h4><a href="#contact">Bug Bounty</a></h4>
-              <p>A Bug Bounty program to help you identify and fix security vulnerabilities by incentivizing ethical hackers.</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-shield-quarter"></i></div>
-              <h4><a href="#contact">Network Security</a></h4>
-              <p>Comprehensive protection for your business against cyber threats.</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-code-block"></i></div>
-              <h4><a href="#contact">Website and Application Development</a></h4>
-              <p>We create custom websites and applications to meet your business needs.</p>
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-layer"></i></div>
-              <h4><a href="#contact">Automation and Scripting</a></h4>
-              <p>Scripts to automate your routine tasks, improve efficiency, and reduce manual errors.</p>
-            </div>
-          </div>
-
-        </div>
-
+        </a>
       </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="row">
-          <div class="col-lg-9 text-center text-lg-start">
-            <h3>Request a Quote</h3>
-            <p> Ready to take your business to the next level? Contact us today for a free quote on our services. Our team of experts is standing by to discuss your needs and provide customized solutions that meet your budget and timeline. Don't wait - let us help you achieve your business goals today.</p>
+      <div class="col-lg-4 col-md-6 service-item">
+        <a class="text-black" href="services/advisory.html">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">02</span>
+            <h3 class="mb-3 service-title">Advisory</h3>
+            <p class="mb-0 service-description">Expert advice and guidance on managing and mitigating cyber risks to protect your business.</p>
           </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Contact Us</a>
-          </div>
-        </div>
-
+        </a>
       </div>
-    </section><!-- End Cta Section -->
+      <div class="col-lg-4 col-md-6 service-item">
+        <a class="text-black" href="services/security-auditing.html">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">
 
-    <!-- ======= Product Section ======= -->
-    <section id="products" class="portfolio">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Products</h2>
-          <p>Discover our cutting-edge security software solutions that are designed to meet your specific business needs. Our products are designed to provide you with peace of mind, knowing that your business is protected against cyber threats with the highest level of security.</p>
-        </div>
-        
+              03
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/honeytrack-maps.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>HoneyTrack</h4>
-              <p>A Specialized Honeypot</p>
-              <a href="assets/img/portfolio/honeytrack-video.mp4" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title=""><i class="bx bx-plus"></i></a>
-              <a href="https://earth.google.com/web/@10.4703105,0,-5.06765732a,13870134.37577886d,30y,0h,0t,0r/data=MikKJwolCiExckNncDBHV1VCeFMwNHpDN2s0SDhndFNzdnIwRHF0cUogAjoDCgEw?authuser=0" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
+            </span>
+            <h3 class="mb-3 service-title">Security Auditing</h3>
+            <p class="mb-0 service-description">Comprehensive evaluation of your organization's security posture and actionable recommendations.</p>
           </div>
-
-          <div class="col-lg-6 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/elastic-search.png" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Intrusion Detection System</h4>
-              <p>Cloud based IDS using Elastic Stack</p>
-              <a href="assets/img/portfolio/elastic-search.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
+        </a>
       </div>
-    </section><!-- End Portfolio Section -->
+      <div class="col-lg-4 col-md-6 service-item">
+        <a class="text-black" href="services/network-setup.html">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">
 
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2>Team</h2>
-        </div>
+              04
 
-        <div class="row">
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/auti.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Atharva Auti</h4>
-                <span>Co-Founder & CEO</span>
-                <p>Creative problem solver with a knack for identifying opportunities and implementing effective solutions.</p>
-                <div class="social">
-                  <a href="https://www.twitter.com/aatharvauti"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.github.com/aatharvauti"><i class="ri-github-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/auti"> <i class="ri-linkedin-box-fill"></i> </a>
-                  <a href="mailto:auti@cyhex.co"><i class="ri-mail-fill"></i></a>
-                </div>
-              </div>
-            </div>
+            </span>
+            <h3 class="mb-3 service-title">Network Setup and Configuration</h3>
+            <p class="mb-0 service-description">Setting up your network optimally and configuring it to meet your specific requirements.</p>
           </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/dhruvil.jpeg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Dhruvil Jain</h4>
-                <span>Co-Founder & CFO</span>
-                <p>Software developer with a passion for cyber security, constantly seeking to innovate and secure systems.</p>
-                <div class="social">
-                  <a href="https://www.github.com/Dhruvil10"><i class="ri-github-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/dhruviljain/"> <i class="ri-linkedin-box-fill"></i> </a>
-                  <a href="mailto:dj@cyhex.co"><i class="ri-mail-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/mihir.jpeg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Mihir Doshi</h4>
-                <span>Co-Founder & COO</span>
-                <p>Passionate about driving success through visionary leadership and effective teamwork</p>
-                <div class="social">
-                  <a href="https://twitter.com/m2h4r"><i class="ri-twitter-fill"></i></a>
-                  <a href="https://www.github.com/m2h4r/"><i class="ri-github-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/m2h4r/"> <i class="ri-linkedin-box-fill"></i> </a>
-                  <a href="mailto:mihir@cyhex.co"><i class="ri-mail-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
-            <div class="member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/team/vivek.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Vivek Mishra</h4>
-                <span>Co-Founder & CTO</span>
-                <p>Transforming ideas into reality with a focus on excellence in execution and delivering value.</p>
-                <div class="social">
-                  <a href="https://github.com/Vivek-Mishra-2002"><i class="ri-github-fill"></i></a>
-                  <a href="https://www.linkedin.com/in/vivek051/"> <i class="ri-linkedin-box-fill"></i> </a>
-                  <a href="mailto:vivek@cyhex.co"><i class="ri-mail-fill"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
+        </a>
       </div>
-    </section><!-- End Team Section -->
+      <div class="col-lg-4 col-md-6 service-item">
+        <a class="text-black" href="services/webapp.html">
+          <div class="block"> <span class="colored-box text-center h3 mb-4">
 
 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
+              05
 
-        <div class="section-title">
-          <h2>Contact</h2>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-5 d-flex align-items-stretch">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>405/B Ashoka Heights, Thane West 400601</p>
-              </div>
-
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>contact@cyhex.co</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+91 8452861970</br>+91 9769968645</p>
-              </div>
-              <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-              <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
-                
-              </div>
-              <script>(function () {
-                  var setting = {"height":284,"width":523,"zoom":15,"queryString":"Ashoka Heights, Naik Wadi, Gaondevi Maidan, Thane West, Thane, Maharashtra, India","place_id":"ChIJ4Sc8pH-55zsRT4MW-XBx-xM","satellite":false,"centerCoord":[19.190072481115163,72.97288240373679],"cid":"0x13fb7170f916834f","lang":"en","cityUrl":"/india/mumbai","cityAnchorText":"Map of Mumbai, West Zone, India","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"905216"};
-                  var d = document;
-                  var s = d.createElement('script');
-                  s.src = 'https://1map.com/js/script-for-user.js?embed_id=905216';
-                  s.async = true;
-                  s.onload = function (e) {
-                    window.OneMap.initMap(setting)
-                  };
-                  var to = d.getElementsByTagName('script')[0];
-                  to.parentNode.insertBefore(s, to);
-                })();</script>
-              </div>
-            </div>
-
+            </span>
+            <h3 class="mb-3 service-title">Website and Application Development</h3>
+            <p class="mb-0 service-description">We create custom websites and applications to meet your business needs.</p>
           </div>
-
-          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="https://formspree.io/f/mjvdawba" method="POST" role="form" class="php-email-form">
-              <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-   
-
-    <div class="container footer-bottom clearfix">
-      <div class="copyright">
-        &copy; Copyright <strong><span>CyHEX Infotech Private Limited</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        Designed by <a href="https://cyhex.co/">CyHEX</a>
+        </a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </div>
+</section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<section class="about-section section bg-tertiary position-relative overflow-hidden">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <div class="section-title">
+          <p class="text-primary text-uppercase fw-bold mb-3">About Ourselves</p>
+          <h1>Cybersecurity Pioneers, Tech Visionaries.</h1>
+          <p class="lead mb-0 mt-4">
+            <p>Our team comprises passionate tech enthusiasts deeply dedicated to the fields of infotech and cybersecurity. As a specialized startup, we are committed to providing top-notch development, products, and services that make a significant impact in the realm of cybersecurity. We firmly believe in the uniqueness of each project and work closely with our clients to comprehend their specific security needs, delivering tailor-made solutions accordingly.</p>
+            <p>Remaining at the forefront of the ever-evolving cybersecurity landscape is our unwavering commitment. We consistently educate ourselves on the latest trends and technologies to ensure that our clients receive the most effective and cutting-edge cybersecurity solutions. Safeguarding their valuable assets is our utmost priority.</p>
+          </p> <a class="btn btn-primary mt-4" href="about.html">Learn More</a>
+        </div>
+      </div>
+      <div class="col-lg-5 text-center text-lg-end">
+        <img loading="lazy" decoding="async" src="images/secured.png" alt="About Ourselves" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="has-shapes">
+    <svg class="shape shape-left text-light" width="381" height="443" viewBox="0 0 381 443" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M334.266 499.007C330.108 469.108 304.151 446.496 276.261 435.921C248.372 425.346 218.077 424.035 188.666 419.32C159.254 414.589 128.795 405.375 108.664 383.129C72.8533 343.535 83.3445 282.01 77.7634 228.587C69.3017 147.754 15.4873 73.3967 -58.0001 40.9907"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M349.584 485.51C345.427 455.611 319.469 433 291.58 422.425C263.69 411.85 233.395 410.538 203.984 405.823C174.573 401.092 144.114 391.878 123.982 369.632C88.1716 330.038 98.6628 268.513 93.0817 215.09C84.62 134.258 30.8056 59.8999 -42.6819 27.494"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M364.904 472.013C360.747 442.114 334.789 419.503 306.9 408.928C279.011 398.352 248.716 397.041 219.304 392.326C189.893 387.595 159.434 378.381 139.303 356.135C103.492 316.541 113.983 255.016 108.402 201.593C99.9403 120.76 46.1259 46.4028 -27.3616 13.9969"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M380.24 458.516C376.083 428.617 350.125 406.006 322.236 395.431C294.347 384.856 264.051 383.544 234.64 378.829C205.229 374.098 174.77 364.884 154.639 342.638C118.828 303.044 129.319 241.519 123.738 188.096C115.276 107.264 61.4619 32.906 -12.0255 0.500103"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+    <svg class="shape shape-right text-light" width="406" height="433" viewBox="0 0 406 433" fill="none"
+      xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M101.974 -86.77C128.962 -74.8992 143.467 -43.2447 146.175 -12.7857C148.883 17.6734 142.273 48.1263 139.087 78.5816C135.916 109.041 136.681 141.702 152.351 167.47C180.247 213.314 240.712 218.81 289.413 238.184C363.095 267.516 418.962 340.253 430.36 421.687"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M118.607 -98.5031C145.596 -86.6323 160.101 -54.9778 162.809 -24.5188C165.517 5.94031 158.907 36.3933 155.72 66.8486C152.549 97.3082 153.314 129.969 168.985 155.737C196.881 201.581 257.346 207.077 306.047 226.451C379.729 255.783 435.596 328.52 446.994 409.954"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M135.241 -110.238C162.23 -98.3675 176.735 -66.7131 179.443 -36.254C182.151 -5.79492 175.541 24.6581 172.354 55.1134C169.183 85.573 169.948 118.234 185.619 144.002C213.515 189.846 273.98 195.342 322.681 214.716C396.363 244.048 452.23 316.785 463.627 398.219"
+        stroke="currentColor" stroke-miterlimit="10" />
+      <path
+        d="M151.879 -121.989C178.867 -110.118 193.373 -78.4638 196.081 -48.0047C198.789 -17.5457 192.179 12.9074 188.992 43.3627C185.821 73.8223 186.586 106.483 202.256 132.251C230.153 178.095 290.618 183.591 339.318 202.965C413.001 232.297 468.867 305.034 480.265 386.468"
+        stroke="currentColor" stroke-miterlimit="10" />
+    </svg>
+  </div>
+</section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+<section class="homepage_tab position-relative">
+  <div class="section container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 mb-4">
+        <div class="section-title text-center">
+          <p class="text-primary text-uppercase fw-bold mb-3">Difference Of Us</p>
+          <h1>What makes us different?</h1>
+        </div>
+      </div>
+      <div class="col-lg-10">
+        <ul class="payment_info_tab nav nav-pills justify-content-center mb-4" id="pills-tab" role="tablist">
+          <li class="nav-item m-2" role="presentation"> <a
+              class="nav-link btn btn-outline-primary effect-none text-dark active" id="pills-how-much-can-i-recive-tab"
+              data-bs-toggle="pill" href="#pills-how-much-can-i-recive" role="tab"
+              aria-controls="pills-how-much-can-i-recive" aria-selected="true">Client-Centric Approach</a>
+          </li>
+          <li class="nav-item m-2" role="presentation"> <a
+              class="nav-link btn btn-outline-primary effect-none text-dark " id="pills-how-much-does-it-costs-tab"
+              data-bs-toggle="pill" href="#pills-how-much-does-it-costs" role="tab"
+              aria-controls="pills-how-much-does-it-costs" aria-selected="true">Continuous Learning and Adaptability</a>
+          </li>
+          <li class="nav-item m-2" role="presentation"> <a
+              class="nav-link btn btn-outline-primary effect-none text-dark " id="pills-how-do-i-repay-tab"
+              data-bs-toggle="pill" href="#pills-how-do-i-repay" role="tab" aria-controls="pills-how-do-i-repay"
+              aria-selected="true">Ethical Standards and Information Security</a>
+          </li>
+        </ul>
+        <div class="rounded shadow bg-white p-5 tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-how-much-can-i-recive" role="tabpanel"
+            aria-labelledby="pills-how-much-can-i-recive-tab">
+            <div class="row align-items-center">
+              <div class="col-md-6 order-1 order-md-0">
+                <div class="content-block">
+                  <h3 class="mb-4">Client-Centric Approach</h3>
+                  <div class="content">
+                    <p>Our startup sets itself apart by prioritizing a client-centric approach. We understand that each project has its unique security requirements, and we work closely with our clients to develop customized solutions that address their specific needs.</p>
+                    <p> By forging strong relationships based on trust and respect, we ensure that our clients receive tailored cybersecurity services that effectively protect their valuable assets.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 order-0 order-md-1 mb-5 mt-md-0">
+                <div class="image-block text-center">
+                  <img loading="lazy" decoding="async"
+                    src="images/client-centric.png" alt="Client-Centric Approach" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade " id="pills-how-much-does-it-costs" role="tabpanel"
+            aria-labelledby="pills-how-much-does-it-costs-tab">
+            <div class="row align-items-center">
+              <div class="col-md-6 order-1 order-md-0">
+                <div class="content-block">
+                  <h3 class="mb-4">Continuous Learning and Adaptability</h3>
+                  <div class="content">
+                    <p>In the rapidly evolving field of cybersecurity, staying up to date with the latest trends and technologies is crucial. Our team of passionate techies maintains a relentless commitment to continuous learning, enabling us to stay ahead of emerging threats and provide cutting-edge cybersecurity solutions.</p>
+                    <p>By adapting to the ever-changing cybersecurity landscape, we can effectively safeguard our clients' digital environments and ensure the highest level of protection.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 order-0 order-md-1 mb-5 mt-md-0">
+                <div class="image-block text-center">
+                  <img loading="lazy" decoding="async" src="images/learning.png" alt="Continuous Learning and Adaptability" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade " id="pills-how-do-i-repay" role="tabpanel"
+            aria-labelledby="pills-how-do-i-repay-tab">
+            <div class="row align-items-center">
+              <div class="col-md-6 order-1 order-md-0">
+                <div class="content-block">
+                  <h3 class="mb-4">Ethical Standards and Information Security</h3>
+                  <div class="content">
+                    <p>Integrity, professionalism, and excellence are at the core of our business. We place a strong emphasis on maintaining the highest standards of ethical conduct and ensuring the utmost security for our clients' sensitive information.</p>
+                    <p>By prioritizing integrity and adhering to ethical practices, we provide our clients with peace of mind, knowing that their data and assets are handled with the utmost care and confidentiality.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 order-0 order-md-1 mb-5 mt-md-0">
+                <div class="image-block text-center">
+                  <img loading="lazy" decoding="async" src="images/ethical.png" alt="Ethical Standards and Information Security" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="has-shapes">
+      <svg class="shape shape-left text-light" width="290" height="709" viewBox="0 0 290 709" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M-119.511 58.4275C-120.188 96.3185 -92.0001 129.539 -59.0325 148.232C-26.0649 166.926 11.7821 174.604 47.8274 186.346C83.8726 198.088 120.364 215.601 141.281 247.209C178.484 303.449 153.165 377.627 149.657 444.969C144.34 546.859 197.336 649.801 283.36 704.673"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M-141.434 72.0899C-142.111 109.981 -113.923 143.201 -80.9554 161.895C-47.9878 180.588 -10.1407 188.267 25.9045 200.009C61.9497 211.751 98.4408 229.263 119.358 260.872C156.561 317.111 131.242 391.29 127.734 458.631C122.417 560.522 175.414 663.463 261.437 718.335"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M-163.379 85.7578C-164.056 123.649 -135.868 156.869 -102.901 175.563C-69.9331 194.256 -32.086 201.934 3.9592 213.677C40.0044 225.419 76.4955 242.931 97.4127 274.54C134.616 330.779 109.296 404.957 105.789 472.299C100.472 574.19 153.468 677.131 239.492 732.003"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M-185.305 99.4208C-185.982 137.312 -157.794 170.532 -124.826 189.226C-91.8589 207.919 -54.0118 215.597 -17.9666 227.34C18.0787 239.082 54.5697 256.594 75.4869 288.203C112.69 344.442 87.3706 418.62 83.8633 485.962C78.5463 587.852 131.542 690.794 217.566 745.666"
+          stroke="currentColor" stroke-miterlimit="10" />
+      </svg>
+      <svg class="shape shape-right text-light" width="474" height="511" viewBox="0 0 474 511" fill="none"
+        xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M601.776 325.899C579.043 348.894 552.727 371.275 520.74 375.956C478.826 382.079 438.015 355.5 412.619 321.6C387.211 287.707 373.264 246.852 354.93 208.66C336.584 170.473 311.566 132.682 273.247 114.593C220.12 89.5159 155.704 108.4 99.7772 90.3769C53.1531 75.3464 16.3392 33.2759 7.65012 -14.947"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M585.78 298.192C564.28 319.945 539.378 341.122 509.124 345.548C469.472 351.341 430.868 326.199 406.845 294.131C382.805 262.059 369.62 223.419 352.278 187.293C334.936 151.168 311.254 115.417 275.009 98.311C224.74 74.582 163.815 92.4554 110.913 75.3971C66.8087 61.1784 31.979 21.3767 23.7639 -24.2362"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M569.783 270.486C549.5 290.99 526.04 310.962 497.501 315.13C460.111 320.592 423.715 296.887 401.059 266.641C378.392 236.402 365.963 199.965 349.596 165.901C333.24 131.832 310.911 98.1265 276.74 82.0034C229.347 59.6271 171.895 76.4848 122.013 60.4086C80.419 47.0077 47.5905 9.47947 39.8431 -33.5342"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M553.787 242.779C534.737 262.041 512.691 280.809 485.884 284.722C450.757 289.853 416.568 267.586 395.286 239.173C373.993 210.766 362.308 176.538 346.945 144.535C331.581 112.533 310.605 80.8723 278.502 65.7217C233.984 44.6979 180.006 60.54 133.149 45.4289C94.0746 32.8398 63.2303 -2.41965 55.9568 -42.8233"
+          stroke="currentColor" stroke-miterlimit="10" />
+        <path
+          d="M537.791 215.073C519.964 233.098 499.336 250.645 474.269 254.315C441.41 259.126 409.422 238.286 389.513 211.704C369.594 185.13 358.665 153.106 344.294 123.17C329.923 93.2337 310.293 63.6078 280.258 49.4296C238.605 29.7646 188.105 44.5741 144.268 30.4451C107.714 18.6677 78.8538 -14.3229 72.0543 -52.1165"
+          stroke="currentColor" stroke-miterlimit="10" />
+      </svg>
+    </div>
+  </div>
+</section>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+<section class="section bg-tertiary" id="contactUs" style="padding-bottom: 0">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="section-title text-center mb-4 pb-2">
+          <p class="text-primary text-uppercase fw-bold mb-3">Any Queries?</p>
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+      <div class="col-lg-8 mt-4 mt-lg-0">
+        <div class="mt-lg-0" style="margin-right: auto;" id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+          <div class="mt-lg-0" style="margin-right: auto;" id="map-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            
+            <h3 class="pt-5">Main Office</h3>
+        </div>
+        <script>(function () {
+          var setting = {"height":500,"width":800,"zoom":15,"queryString":"CyHEX Infotech Private Limited, Naik Wadi, Ghantali, Thane West, Thane, Maharashtra, India","place_id":"ChIJU83WrGe55zsRgcqGw6l8-0I","satellite":false,"centerCoord":[19.18884450552666,72.97495405000001],"cid":"0x42fb7ca9c386ca81","lang":"en","cityUrl":"/india/mumbai","cityAnchorText":"Map of Mumbai, West Zone, India","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"940402"};
+          var d = document;
+          var s = d.createElement('script');
+          s.src = 'https://1map.com/js/script-for-user.js?embed_id=940402';
+          s.async = true;
+          s.onload = function (e) {
+            window.OneMap.initMap(setting)
+          };
+          var to = d.getElementsByTagName('script')[0];
+          to.parentNode.insertBefore(s, to);
+        })();</script>
+        </div>
+      </div>
+      <div class="col-lg-4 mt-4 mt-lg-0">
+        <div class="shadow rounded py-5 px-4 ms-0 ms-lg-4 bg-white position-relative">
+          <div class="block mx-0 mx-lg-3 mt-0">
+            <h4 class="h5">Contact Details</h4>
+            <div class="content"> <br> <b> Call Us </b>
+              <br> <a href="tel:+918452861970">+918452861970</a>
+              <br> <a href="tel:+919769968645">+919769968645</a>
+              <br>Monday - Saturday
+              <br>9AM TO 8PM IST
+
+              <br><br>
+              <b> Email Us </b>
+              <br> <a href="mailto:contact@cyhex.co">contact@cyhex.co</a>
+
+            </div>
+          </div>
+          <div class="block mx-0 mx-lg-3 mt-4">
+            <h4 class="h5">Main Office</h4>
+            <div class="content">405/B Ashoka Heights
+              <br>Thane West 400601</div>
+          </div>
+          <div class="block mx-0 mx-lg-3 mt-4">
+          <a type="button"
+            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#emailUs">Send Message <span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span>
+          </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="section-sm bg-tertiary">
+	<div class="container">
+    <div class="row align-items-center text-center text-md-start">
+			<div class="col-lg-8">
+        <a href="index.html">
+          <svg class="img-fluid" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg641266" viewBox="0 85 1024 568" height=100px" width="200px" version="1.1">
+            <metadata id="metadata641272">
+              <rdf:rdf>
+                <cc:work rdf:about="">
+                  <dc:format>image/svg+xml</dc:format>
+                  <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
+                </cc:work>
+              </rdf:rdf>
+            </metadata>
+            <defs id="defs641270"></defs>
+            <linearGradient spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient2-logo-97114b72-2d76-422a-9276-677e1c994077">
+              <stop id="stop641247" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+              <stop id="stop641249" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+            </linearGradient>
+            <linearGradient gradientTransform="rotate(-30)" spreadMethod="pad" y2="30%" x2="-10%" y1="120%" x1="30%" id="3d_gradient3-logo-97114b72-2d76-422a-9276-677e1c994077">
+              <stop id="stop641252" stop-opacity="1" stop-color="#ffffff" offset="0%"></stop>
+              <stop id="stop641254" stop-opacity="1" stop-color="#cccccc" offset="50%"></stop>
+              <stop id="stop641256" stop-opacity="1" stop-color="#000000" offset="100%"></stop>
+            </linearGradient>
+            <g id="logo-group">
+              <image xlink:href="" id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)"></image>
+              <g id="logo-center" transform="translate(0 0)">
+                <image xlink:href="" id="icon_container" style="display: none;" x="0" y="0"></image>
+                <g id="slogan" style="font-style:normal;font-weight:400;font-size:32px;line-height:1;font-family:'Hammersmith One';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+                <g id="title" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)">
+                  <path id="path641275" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 397.13075,-2.304 c 4.176,2.232 8.928,3.312 14.256,3.312 4.608,0 8.712,-0.792 12.456,-2.448 3.672,-1.584 6.768,-3.96 9.216,-7.056 l -9.072,-8.208 c -3.312,3.96 -7.272,5.904 -11.88,5.904 -2.736,0 -5.184,-0.576 -7.344,-1.8 -2.16,-1.152 -3.816,-2.88 -4.968,-5.04 -1.152,-2.16 -1.728,-4.68 -1.728,-7.56 0,-2.808 0.576,-5.328 1.728,-7.488 1.152,-2.16 2.808,-3.888 4.968,-5.112 2.16,-1.152 4.608,-1.8 7.344,-1.8 4.608,0 8.568,2.016 11.88,5.904 l 9.072,-8.208 c -2.448,-3.024 -5.544,-5.4 -9.216,-7.056 -3.744,-1.584 -7.848,-2.448 -12.456,-2.448 -5.328,0 -10.08,1.152 -14.256,3.384 -4.176,2.232 -7.488,5.328 -9.864,9.288 -2.448,4.032 -3.6,8.496 -3.6,13.536 0,5.04 1.152,9.576 3.6,13.536 2.376,4.032 5.688,7.128 9.864,9.36 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(81.43270844999995 -59.499039999999994) scale(3.13) translate(-383.66675 51.408)"></path>
+                  <path id="path641277" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 466.13375,-18.072 19.296,-32.328 h -13.824 l -11.952,20.016 -11.952,-20.016 h -15.048 l 19.224,32.112 V 0 h 14.256 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(246.96901845000002 -56.34399999999998) scale(3.13) translate(-432.65375 50.4)"></path>
+                  <path id="path641279" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 536.72637,-50.4 h -14.256 v 18.936 h -19.44 V -50.4 H 488.77438 V 0 h 14.25599 v -19.656 h 19.44 V 0 h 14.256 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(434.83359035000007 -56.34399999999998) scale(3.13) translate(-488.77438 50.4)"></path>
+                  <path id="path641281" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 586.8125,-50.4 h -39.96 v 11.016 h 39.96 z m 0,19.512 h -39.96 v 10.656 h 39.96 z m -39.96,19.872 V 0 h 39.96 v -11.016 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(628.82510595 -56.34399999999998) scale(3.13) translate(-546.8525 50.4)"></path>
+                  <path id="path641283" style="font-style:normal;font-weight:800;font-size:72px;line-height:1;font-family:'Montserrat ExtraBold Alt1';font-variant-ligatures:none;text-align:center;text-anchor:middle" d="m 610.21362,-45.072 -3.6,-5.328 h -16.05599 l 11.15999,15.84 z m 21.096,28.584 -8.352,10.8 3.81601,5.688 h 16.41599 z M 642.03763,-50.4 h -15.408 L 589.76562,0 h 16.27201 z" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#000000" stroke="#000000" transform="translate(0 361.468) translate(775.35017155 -56.34399999999998) scale(3.13) translate(-589.76562 50.4)"></path>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </a>
+			</div>
+			<div class="col-lg-4 col-md-4 text-md-end mt-4 mt-md-0">
+				<ul class="list-unstyled list-inline mb-0 social-icons">
+					<li class="list-inline-item me-3"><a title="Explorer Facebook Profile" class="text-black" href="https://facebook.com/cyhexinfotech" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</li>
+					<li class="list-inline-item me-3"><a title="Explorer Twitter Profile" class="text-black" href="https://twitter.com/cyhexinfotech" target="_blank"><i class="fab fa-twitter"></i></a>
+					</li>
+					<li class="list-inline-item me-3"><a title="Explorer LinkedIn Profile" class="text-black" href="https://www.linkedin.com/company/cyhexinfotech/" target="_blank"><i class="fab fa-linkedin"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row justify-content-between mt-5">
+			<div class="col-lg-3 col-md-4 col-6 mb-4">
+				<div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">Our Services</h5>
+					<ul class="list-unstyled">
+						
+            <li class="mb-2"><a href="services/vapt.html">Pentesting</a>
+						</li>
+            
+            <li class="mb-2"><a href="services/security-auditing.html">Security Auditing</a>
+						</li>
+                        
+            <li class="mb-2"><a href="services/network-setup.html">Network Setup</a>
+            </li>
+            
+            <li class="mb-2"><a href="services/advisory.html">Advisory</a>
+            </li>
+          
+            <li class="mb-2"><a href="services/webapp.html">Development</a>
+            </li>
+            
+            <li class="mb-2"><a href="services/automation-and-scripting.html">Automation</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+      <div class="col-lg-3 col-md-4 col-6 mb-4">
+				<div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">Resources</h5>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="coming-soon.html">Blog</a>
+						</li>
+						<li class="mb-2"><a href="faq.html">FAQ</a>
+						</li>
+						<li class="mb-2"><a href="legal.html">Legal</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-lg-2 col-md-4 col-6 mb-4">
+				<div class="footer-widget">
+					<h5 class="mb-4 text-primary font-secondary">About</h5>
+					<ul class="list-unstyled">
+						<li class="mb-2"><a href="about.html#benefits">Benefits</a>
+						</li>
+						<li class="mb-2"><a href="careers.html">Careers</a>
+						</li>
+						<li class="mb-2"><a href="about.html">Our Story</a>
+						</li>
+						<li class="mb-2"><a href="about.html#team">Team</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="shadow rounded col-lg-4 col-md-12 newsletter-form" style="background-color: white;">
+				<div style="padding: 35px;">
+					<h5 class="mb-4 text-primary font-secondary">Subscribe</h5>
+					<div class="pe-0 pe-xl-5">
+            <form action="https://cyhex.us9.list-manage.com/subscribe/post?u=d47b900bb710dd881dca42d05&amp;id=26ac707db2&amp;f_id=000c2de1f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+							<div class="input-group mb-3">
+								<input type="email" value="" name="EMAIL" id="mce-EMAIL" class="form-control shadow-none bg-white border-end-0" placeholder="Email address" required> <span class="input-group-text border-0 p-0">
+                    <button class="input-group-text border-0 bg-primary" type="submit" name="subscribe"
+                      aria-label="Subscribe for Newsletter"><i class="fas fa-arrow-right"></i></button>
+                  </span>
+							</div>
+							<div style="position: absolute; left: -5000px;" aria-hidden="true">
+								<input type="text" name="b_463ee871f45d2d93748e77cad_a0a2c6d074" tabindex="-1">
+							</div>
+						</form>
+					</div>
+					<p class="mb-0">Stay one step ahead of cyber threats and unlock exclusive insights with our newsletter</p>
+				</div>
+			</div>
+		</div>
+
+    <div class="row align-items-center mt-5 text-center text-md-start">
+      <div class="col-lg-12 col-md-12 mt-4 mt-lg-0">
+        <ul class="list-unstyled list-inline mb-0 text-lg-center">
+          <li class="list-inline-item me-4"><a class="text-black" href="privacy-policy.html">Privacy Policy</a>
+          </li>
+          <li class="list-inline-item me-4"><a class="text-black" href="terms.html">Terms &amp; Conditions</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+	</div>
+</footer>
+
+
+<!-- # JS Plugins -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+<script src="plugins/scrollmenu/scrollmenu.min.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
 
 </body>
-
 </html>
