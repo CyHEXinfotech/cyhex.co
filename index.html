@@ -133,7 +133,7 @@
             </ul>
           </li>
         </ul>
-        <!-- contact btn --> <a href="contact.html" class="btn btn-primary ms-2 ms-lg-3">Contact Us</a>
+        <!-- contact btn --> <a href="contact.html" class="btn btn-primary ms-2 ms-lg-3">Schedule a Demo</a>
       </div>
     </div>
   </nav>
@@ -144,38 +144,73 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header border-bottom-0">
-        <h4 class="modal-title" id="exampleModalLabel">Email Us</h4>
+        <h4 class="modal-title" id="exampleModalLabel">Request a demo to get started</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
         <form action="https://formspree.io/f/mjvdawba" method="POST" role="form">
           <div class="row">
-            <div class="col-lg-6 mb-4 pb-2">
+            <div class="col-lg-12 mb-4 pb-2">
               <div class="form-group">
-                <label for="name" class="form-label">Your Name</label>
-                <input name="name" type="text" class="form-control shadow-none" id="form_name" required>
+                <label for="work_email" class="form-label">Work email</label>
+                <input name="work_email" type="email" class="form-control shadow-none" id="form_email" required>
               </div>
             </div>
             <div class="col-lg-6 mb-4 pb-2">
               <div class="form-group">
-                <label for="emailid" class="form-label">Your Email</label>
-                <input name="email" type="email" class="form-control shadow-none" id="form_email" required>
+                <label for="first_name" class="form-label">First name</label>
+                <input name="first_name" type="text" class="form-control shadow-none" id="form_first_name" required>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="last_name" class="form-label">Last name</label>
+                <input name="last_name" type="text" class="form-control shadow-none" id="form_last_name" required>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="company_name" class="form-label">Company name</label>
+                <input name="company_name" type="text" class="form-control shadow-none" id="form_company_name" required>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-4 pb-2">
+              <div class="form-group">
+                <label for="job_title" class="form-label">Job title</label>
+                <input name="job_title" type="text" class="form-control shadow-none" id="form_job_title" required>
               </div>
             </div>
             <div class="col-lg-12 mb-4 pb-2">
               <div class="form-group">
-                <label for="subject" class="form-label">Subject</label>
-                <input name="subject" type="text" class="form-control shadow-none" id="form_subject" required>
+                <label for="company_headcount" class="form-label">Company headcount</label>
+                <select name="company_headcount" class="form-control shadow-none" id="form_company_headcount" required>
+                  <option value="" disabled selected>Please select</option>
+                  <option value="1-10">1-10</option>
+                  <option value="11-50">11-50</option>
+                  <option value="51-200">51-200</option>
+                  <option value="201-500">201-500</option>
+                  <option value="501-1000">501-1000</option>
+                  <option value="1001-5000">1001-5000</option>
+                  <option value="5001+">5001+</option>
+                </select>
               </div>
             </div>
             <div class="col-lg-12 mb-4 pb-2">
               <div class="form-group">
-                <label for="message" class="form-label">Message</label>
-                <textarea name="message" type="text" class="form-control shadow-none" style="padding-top: 20px" id="form_message" rows="10" required></textarea>
+                <label for="company_headquarters" class="form-label">Where is your company headquartered?</label>
+                <select name="company_headquarters" class="form-control shadow-none" id="form_company_headquarters" required>
+                  <option value="" disabled selected>Please select</option>
+                  <option value="USA">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="UK">UK</option>
+                  <option value="Australia">Australia</option>
+                  <option value="India">India</option>
+                  <option value="Other">Other</option>
+                </select>
               </div>
             </div>
             <div class="col-lg-12">
-              <button type="submit" class="btn btn-primary w-100">Send Message</button>
+              <button type="submit" class="btn btn-primary w-100">Request Demo</button>
             </div>
           </div>
         </form>
@@ -189,8 +224,8 @@
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-7 mb-5 mb-lg-0">
         <div class="block text-center text-lg-start pe-0 pe-xl-5">
-          <h1 class="text-capitalize mb-4">Protecting Your Network, Building Your Business.</h1>
-          <p class="mb-4">Empowering your digital future with innovative software solutions and impenetrable cybersecurity.</p> 
+          <h1 class="text-capitalize mb-4">Compliance Without Complexity, Security Without Compromise</h1>
+          <p class="mb-4">Secure your data and simplify compliance with our all-in-one solution.</p> 
         </div>
       </div>
       <div class="col-lg-5 mb-5">
@@ -262,16 +297,16 @@
       <div class="col-lg-4 col-md-6 service-item">
         <a class="text-black" href="services/vapt.html">
           <div class="block"> <span class="colored-box text-center h3 mb-4">01</span>
-            <h3 class="mb-3 service-title">Vulnerability Assessment and Penetration Testing</h3>
-            <p class="mb-0 service-description">Identifcation and mitigation of security vulnerabilities in your networks and systems.</p>
+            <h3 class="mb-3 service-title">Fast and Easy Compliance Program Setup</h3>
+            <p class="mb-0 service-description">Quickly create a robust compliance program with step-by-step guidance and expert support, all using our content-rich platform.</p>
           </div>
         </a>
       </div>
       <div class="col-lg-4 col-md-6 service-item">
         <a class="text-black" href="services/advisory.html">
           <div class="block"> <span class="colored-box text-center h3 mb-4">02</span>
-            <h3 class="mb-3 service-title">Advisory</h3>
-            <p class="mb-0 service-description">Expert advice and guidance on managing and mitigating cyber risks to protect your business.</p>
+            <h3 class="mb-3 service-title">Streamline Compliance Workflows</h3>
+            <p class="mb-0 service-description">Free your team from time-consuming tasks by automating compliance activities such as audit tracking and evidence management.</p>
           </div>
         </a>
       </div>
@@ -283,8 +318,8 @@
               03
 
             </span>
-            <h3 class="mb-3 service-title">Security Auditing</h3>
-            <p class="mb-0 service-description">Comprehensive evaluation of your organization's security posture and actionable recommendations.</p>
+            <h3 class="mb-3 service-title">Accelerate Your Audit Process</h3>
+            <p class="mb-0 service-description">Collaborate with auditors, share documents, manage evidence requests, and track audit progress—all in one streamlined platform.</p>
           </div>
         </a>
       </div>
@@ -296,8 +331,8 @@
               04
 
             </span>
-            <h3 class="mb-3 service-title">Network Setup and Configuration</h3>
-            <p class="mb-0 service-description">Setting up your network optimally and configuring it to meet your specific requirements.</p>
+            <h3 class="mb-3 service-title">Drive Sales with Proven Security Compliance</h3>
+            <p class="mb-0 service-description">Impress potential clients by displaying your security posture on auto-populated, customizable security pages that build trust.</p>
           </div>
         </a>
       </div>
@@ -309,8 +344,8 @@
               05
 
             </span>
-            <h3 class="mb-3 service-title">Website and Application Development</h3>
-            <p class="mb-0 service-description">We create custom websites and applications to meet your business needs.</p>
+            <h3 class="mb-3 service-title">All-in-One Compliance Service Marketplace</h3>
+            <p class="mb-0 service-description">Access top-rated auditors, consultants, and penetration testers at pre-negotiated rates, all in one convenient platform.</p>
           </div>
         </a>
       </div>
@@ -375,8 +410,8 @@
     <div class="row justify-content-center">
       <div class="col-lg-8 mb-4">
         <div class="section-title text-center">
-          <p class="text-primary text-uppercase fw-bold mb-3">Difference Of Us</p>
-          <h2>What makes us different?</h2>
+          <p class="text-primary text-uppercase fw-bold mb-3">Our Services</p>
+          <h2>How does CyHEX help?</h2>
         </div>
       </div>
       <div class="col-lg-10">
