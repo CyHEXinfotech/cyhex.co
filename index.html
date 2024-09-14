@@ -46,6 +46,26 @@
 
 	<!-- # Main Style Sheet -->
 	<link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .responsive-div {
+      width: 60%;
+    }
+  
+    /* Tablets */
+    @media (max-width: 991px) {
+      .responsive-div {
+        width: 70%;
+      }
+    }
+  
+    /* Mobiles */
+    @media (max-width: 767px) {
+      .responsive-div {
+        width: 85%;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -353,7 +373,7 @@
   </div>
 </section>
 
-<section class="about-section section bg-tertiary position-relative overflow-hidden">
+<!-- <section class="about-section section bg-tertiary position-relative overflow-hidden">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-7">
@@ -403,7 +423,7 @@
         stroke="currentColor" stroke-miterlimit="10" />
     </svg>
   </div>
-</section>
+</section> -->
 
 <section class="homepage_tab position-relative">
   <div class="section container">
@@ -534,50 +554,66 @@
   </div>
 </section>
 
+<!-- CONTACT SECTION -->
 <section class="section bg-tertiary" id="contactUs" style="padding-bottom: 0">
   <div class="container">
     <div class="row justify-content-center">
+      <!-- Section Title -->
       <div class="col-12">
         <div class="section-title text-center mb-4 pb-2">
           <p class="text-primary text-uppercase fw-bold mb-3">Any Queries?</p>
           <h2>Contact Us</h2>
         </div>
       </div>
-      <div class="col-lg-8 mt-4 mt-lg-0">
-        <div class="mt-lg-0" style="margin-right: auto;">
-          <div class="mt-lg-0" style="margin-right: auto;">
-            
-            <h3 class="pt-5">Main Office</h3>
-        </div>
-        <div style="width: 100%"><iframe title="Main Office" width="100%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=500&amp;hl=en&amp;q=CyHEX%20Infotech%20Private%20Limited+(CyHEX%20Infotech%20Private%20Limited)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
-        <!-- <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kvtxyOOwfb5jsM0aq8gS5BXZNH_aIQ8&ehbc=2E312F" width="640" height="480"></iframe> -->
-        </div>
-      </div>
-      <div class="col-lg-4 mt-4 mt-lg-0">
-        <div class="shadow rounded py-5 px-4 ms-0 ms-lg-4 bg-white position-relative">
+
+      <!-- Contact Content -->
+      <div class="col-lg-10 col-md-12 mt-4">
+        <div class="shadow rounded py-5 px-4 bg-white position-relative mx-auto">
           <div class="block mx-0 mx-lg-3 mt-0">
-            <h4 class="h5">Contact Details</h4>
-            <div class="content"> <br> <b> Call Us </b>
-              <br> <a href="tel:+918452861970">+918452861970</a>
-              <br> <a href="tel:+919769968645">+919769968645</a>
-              <br>Monday - Saturday
-              <br>9AM TO 8PM IST
+            <div class="row">
+              <!-- First Column (Call Us) -->
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <div class="content">
+                  <b>Call Us</b>
+                  <br> <a href="tel:+918082566566">+91 8082 566 566</a>
+                  <br> <a href="tel:+919769968645">+91 9769 968 645</a>
+                  <br>Monday - Saturday
+                  <br>9AM TO 10PM IST
+                  <br><br>
+                </div>
+              </div>
 
-              <br><br>
-              <b> Email Us </b>
-              <br> <a href="mailto:contact@cyhex.co">contact@cyhex.co</a>
-
+              <!-- Second Column (Main Office) -->
+              <div class="col-12 col-md-6">
+                <h4 class="h5">Main Office</h4>
+                <div class="content">
+                  505/B Ashoka Heights
+                  <br>Thane West 400601
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="block mx-0 mx-lg-3 mt-4">
-            <h4 class="h5">Main Office</h4>
-            <div class="content">405/B Ashoka Heights
-              <br>Thane West 400601</div>
-          </div>
-          <div class="block mx-0 mx-lg-3 mt-4">
-          <a type="button"
-            class="btn btn-primary" href="#" data-bs-toggle="modal" data-bs-target="#emailUs">Send Message <span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span>
-          </a>
+
+            <!-- Row for Email and Button -->
+            <div class="row mt-4">
+              <!-- Third Column (Email Us) -->
+              <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <b>Email Us</b>
+                <br> <a href="mailto:contact@cyhex.co">contact@cyhex.co</a>
+              </div>
+
+              <!-- Send Message Button -->
+              <div class="col-12 col-md-6 text-md-start">
+                <a type="button"
+                   class="btn btn-primary"
+                   href="#"
+                   data-bs-toggle="modal"
+                   data-bs-target="#emailUs">
+                  Send Message 
+                  <span style="font-size: 14px;" class="ms-2 fas fa-arrow-right"></span>
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -727,6 +763,181 @@
 
 	</div>
 </footer>
+
+
+<div class="modal emailUsModal fade" id="emailUs" tabindex="-1" aria-labelledby="emailUsLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+	  <div class="modal-content">
+		<div class="modal-header border-bottom-0">
+		  <h4 class="modal-title" id="exampleModalLabel">Request a demo to get started</h4>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  <form action="https://formspree.io/f/xdknvwow" method="POST" role="form" onsubmit="return validateForm()">
+			<div class="row">
+			  <div class="col-lg-12 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="work_email" class="form-label" style="margin-bottom: 16px;">Work email</label>
+				  <input name="work_email" type="email" class="form-control shadow-none" id="form_email" required oninput="validateEmail()">
+				  <span id="emailError" style="color: red; display: none; font-size: 12px;">Please enter a valid work email address.</span>
+				</div>
+			  </div>
+			  <div class="col-lg-6 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="first_name" class="form-label" style="margin-bottom: 16px;">First name</label>
+				  <input name="first_name" type="text" class="form-control shadow-none" id="form_first_name" required>
+				</div>
+			  </div>
+			  <div class="col-lg-6 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="last_name" class="form-label" style="margin-bottom: 16px;">Last name</label>
+				  <input name="last_name" type="text" class="form-control shadow-none" id="form_last_name" required>
+				</div>
+			  </div>
+			  <div class="col-lg-6 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="company_name" class="form-label" style="margin-bottom: 16px;">Company name</label>
+				  <input name="company_name" type="text" class="form-control shadow-none" id="form_company_name" required>
+				</div>
+			  </div>
+			  <div class="col-lg-6 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="job_title" class="form-label" style="margin-bottom: 16px;">Job title</label>
+				  <input name="job_title" type="text" class="form-control shadow-none" id="form_job_title" required>
+				</div>
+			  </div>
+			  <div class="col-lg-12 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="company_headcount" class="form-label" style="margin-bottom: 16px;">Company headcount</label>
+				  <select name="company_headcount" class="form-control shadow-none" id="form_company_headcount" required>
+					<option value="" disabled selected>Please select</option>
+					<option value="1-10">1-10</option>
+					<option value="11-50">11-50</option>
+					<option value="51-200">51-200</option>
+					<option value="201-500">201-500</option>
+					<option value="501-1000">501-1000</option>
+					<option value="1001-5000">1001-5000</option>
+					<option value="5001+">5001+</option>
+				  </select>
+				</div>
+			  </div>
+			  <div class="col-lg-12 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="company_headquarters" class="form-label" style="margin-bottom: 16px;">Where is your company headquartered?</label>
+				  <select name="company_headquarters" class="form-control shadow-none" id="form_company_headquarters" required>
+					<option value="" disabled selected>Please select</option>
+					<option value="USA">USA</option>
+					<option value="Canada">Canada</option>
+					<option value="UK">UK</option>
+					<option value="Australia">Australia</option>
+					<option value="India">India</option>
+					<option value="Other">Other</option>
+				  </select>
+				</div>
+			  </div>
+  
+			  <!-- Dynamic text input for 'Other' Headquarters -->
+			  <div class="col-lg-12 mb-4 pb-2" id="otherHeadquartersDiv" style="display:none;">
+				<div class="form-group">
+				  <label for="other_headquarters" class="form-label" style="margin-bottom: 8px;">Please specify your country</label>
+				  <input name="other_headquarters" type="text" class="form-control shadow-none" id="form_other_headquarters">
+				</div>
+			  </div>
+  
+			  <!-- Multi-select Frameworks -->
+			  <div class="col-lg-12 mb-4 pb-2">
+				<div class="form-group">
+				  <label for="frameworks" class="form-label" style="margin-bottom: 8px;">Frameworks (use Command/Control & multi-select)</label>
+				  <select name="frameworks[]" class="form-control shadow-none" id="form_frameworks" multiple required style="height: 120px; font-size: 14px; border-top-width: 12px;">
+					<option value="ISO27001">ISO27001</option>
+					<option value="HIPAA">HIPAA</option>
+					<option value="GDPR">GDPR</option>
+					<option value="CCPA">CCPA</option>
+					<option value="SOC2">SOC2</option>
+					<option value="Other">Other</option>
+				  </select>
+				</div>
+			  </div>
+  
+			  <!-- Dynamic text input for 'Other' Frameworks -->
+			  <div class="col-lg-12 mb-4 pb-2" id="otherFrameworkDiv" style="display:none;">
+				<div class="form-group">
+				  <label for="other_framework" class="form-label" style="margin-bottom: 8px;">Please specify other frameworks</label>
+				  <input name="other_framework" type="text" class="form-control shadow-none" id="form_other_framework">
+				</div>
+			  </div>
+  
+			  <div class="col-lg-12">
+				<button type="submit" class="btn btn-primary w-100">Request Demo</button>
+			  </div>
+			</div>
+		  </form>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <script>
+	// Toggle visibility of the "Other" field for frameworks
+	document.getElementById('form_frameworks').addEventListener('change', function() {
+	  var selectedOptions = Array.from(this.selectedOptions).map(option => option.value);
+	  if (selectedOptions.includes('Other')) {
+		document.getElementById('otherFrameworkDiv').style.display = 'block';
+	  } else {
+		document.getElementById('otherFrameworkDiv').style.display = 'none';
+	  }
+	});
+  
+	// Toggle visibility of the "Other" field for headquarters
+	document.getElementById('form_company_headquarters').addEventListener('change', function() {
+	  if (this.value === 'Other') {
+		document.getElementById('otherHeadquartersDiv').style.display = 'block';
+	  } else {
+		document.getElementById('otherHeadquartersDiv').style.display = 'none';
+	  }
+	});
+  
+	// Email validation with real-time error message display
+	function validateEmail() {
+	  const emailInput = document.getElementById('form_email');
+	  const emailError = document.getElementById('emailError');
+	  const invalidDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com'];
+	  const emailDomain = emailInput.value.split('@')[1];
+  
+	  if (invalidDomains.includes(emailDomain)) {
+		emailError.style.display = 'block';
+		emailInput.classList.add('is-invalid');
+	  } else {
+		emailError.style.display = 'none';
+		emailInput.classList.remove('is-invalid');
+	  }
+	}
+  
+	// Final form submission validation for email (also called on form submit)
+	function validateForm() {
+	  const emailInput = document.getElementById('form_email');
+	  const emailError = document.getElementById('emailError');
+	  const invalidDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com'];
+	  const emailDomain = emailInput.value.split('@')[1];
+  
+	  if (invalidDomains.includes(emailDomain)) {
+		emailError.style.display = 'block';
+		return false;
+	  }
+	  return true;
+	}
+  
+	// Basic input sanitization
+	const sanitizeInput = (input) => {
+	  return input.replace(/<|>|&|"|'|\//g, "");
+	}
+  
+	document.querySelectorAll('input[type=text]').forEach(input => {
+	  input.addEventListener('input', function() {
+		this.value = sanitizeInput(this.value);
+	  });
+	});
+  </script>
 
 
 <!-- # JS Plugins -->
