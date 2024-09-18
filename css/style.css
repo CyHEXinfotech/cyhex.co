@@ -8645,7 +8645,7 @@ textarea.form-control-lg {
 /*  typography */
 body {
   line-height: 1.7;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   font-size: 18px;
   font-weight: 400;
@@ -9255,7 +9255,7 @@ blockquote::before {
 }
 
 .navbar-brand {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 30px;
 }
 
@@ -9737,7 +9737,7 @@ blockquote::before {
   border-radius: 50%;
   color: #fff;
   position: relative;
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 .loan-steps .count::after {
   position: absolute;
